@@ -9,13 +9,15 @@ import { EmpleadosService } from './services/empleados.service';
 import { provideHttpClient } from '@angular/common/http';
 import { HomeComponent } from './components/home/home.component';
 import { SubordinadosComponent } from './components/subordinados/subordinados.component';
+import { MenuComponent } from './components/menu/menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     HomeComponent,
-    SubordinadosComponent
+    SubordinadosComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
