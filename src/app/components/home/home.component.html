@@ -1,0 +1,25 @@
+<div>
+    <h1>Perfil del Empleado</h1>
+    <div *ngIf="data">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Apellido</th>
+                    <th>Oficio</th>
+                    <th>Salario</th>
+                    <th>Director</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{{data.idEmpleado}}</td>
+                    <td>{{data.apellido}}</td>
+                    <td>{{data.oficio}}</td>
+                    <td>{{data.salario}}</td>
+                    <td>{{data.director}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
